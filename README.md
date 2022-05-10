@@ -1,5 +1,4 @@
 # Aprendizado
 
 
-
-Estou aprendendo github
+Aqui estão todas minhas atividades de cursos e bootcamps livres.
