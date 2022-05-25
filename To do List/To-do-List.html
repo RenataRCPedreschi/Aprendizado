@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/To-do-List.css"/>
+    <title>To-do list</title>
+    </head>
+	
+<body>
+    <div class='content'>
+        <div class="row">
+            <div class="col-12">
+                <h1> Tarefas</h1>
+                    <form>
+    
+                        <input type="text" name="task" id='task' placeholder="Novo Item..." />
+                        <input type="button" name="" onclick="addTask();" value="adicione"/>
+    
+                    </form>
+    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="to-do-list-box">
+                    <label>Minha lista</label>
+                    <ul id="myList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/To-do List.js"></script>
+</body>
+</html>
